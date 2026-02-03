@@ -122,7 +122,7 @@ document.head.appendChild(style);
 // Função para abrir WhatsApp com mensagem pré-formatada
 function openWhatsApp() {
     const message = encodeURIComponent('Olá Thecno TV! Gostaria de informações sobre os serviços');
-    const phoneNumber = '5511952829842';
+    const phoneNumber = '5511947401684';
     window.open(`https://wa.me/${phoneNumber}?text=${message}`, '_blank');
 }
 
