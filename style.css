@@ -330,57 +330,6 @@ body {
     border-radius: 8px;
 }
 
-/* SEÇÃO DE LOCALIZAÇÃO */
-.localizacao {
-    padding: 80px 20px;
-    background-color: var(--light-color);
-}
-
-.localizacao .container h2 {
-    text-align: center;
-    font-size: 42px;
-    margin-bottom: 50px;
-    color: var(--primary-color);
-    position: relative;
-    padding-bottom: 20px;
-}
-
-.localizacao .container h2::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80px;
-    height: 4px;
-    background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-    border-radius: 2px;
-}
-
-.mapa-container {
-    border-radius: var(--border-radius);
-    overflow: hidden;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    margin-bottom: 30px;
-}
-
-.endereco {
-    text-align: center;
-    background: white;
-    padding: 30px;
-    border-radius: var(--border-radius);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-}
-
-.endereco h3 {
-    color: var(--primary-color);
-    font-size: 18px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
 /* RODAPÉ */
 .footer {
     background: linear-gradient(135deg, var(--dark-color) 0%, #1a1a1a 100%);
@@ -507,8 +456,7 @@ body {
     }
 
     .sobre .container h2,
-    .diferenciais .container h2,
-    .localizacao .container h2 {
+    .diferenciais .container h2 {
         font-size: 32px;
     }
 
@@ -540,8 +488,7 @@ body {
     }
 
     .sobre .container h2,
-    .diferenciais .container h2,
-    .localizacao .container h2 {
+    .diferenciais .container h2 {
         font-size: 24px;
     }
 }
